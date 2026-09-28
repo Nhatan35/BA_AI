@@ -1,0 +1,27 @@
+{
+  "name": "Medical BA AI Starter Kit",
+  "baseline": "Final Conceptual Blueprint V1.0",
+  "language": "vi",
+  "core_workbook": "11_Master_Tracker/Medical_BA_AI_Master_Tracker.xlsx",
+  "folders": [
+    "00_START_HERE",
+    "01_Project_Setup",
+    "02_Knowledge_Base",
+    "03_Elicitation",
+    "04_Analysis",
+    "05_Requirements",
+    "06_Governance",
+    "07_Traceability_Change",
+    "08_Test_UAT",
+    "09_AI_Governance",
+    "10_Artifacts",
+    "12_AI_Prompts",
+    "13_Example",
+    "14_Development"
+  ],
+  "notes": "AI supports analysis; human owners approve business/clinical/technical decisions.",
+  "development_scope": "01_Project_Setup/Medical_BA_AI_MVP_Development_Scope_v1.0.md",
+  "development_backlog": "14_Development/MVP_Epic_Backlog.md",
+  "mvp_definition_of_done": "14_Development/MVP_Definition_of_Done.md",
+  "version": "1.1-development-scope"
+}

@@ -1,0 +1,37 @@
+:root { color-scheme: light; font-family: Arial, sans-serif; color: #172b36; background: #f4f7f9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header { background: white; border-bottom: 1px solid #d8e1e6; display: flex; align-items: center; justify-content: space-between; padding: 18px 5%; gap: 20px; }
+.brand { font-size: 20px; font-weight: 700; text-decoration: none; }
+nav { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+main { max-width: 1100px; margin: 32px auto; padding: 0 24px; }
+a { color: #09666a; }
+h1 { font-size: 28px; margin-top: 0; }
+h2 { font-size: 21px; }
+p { line-height: 1.6; }
+.muted { color: #5e717c; }
+.panel { background: white; border: 1px solid #d8e1e6; border-radius: 8px; padding: 24px; margin-bottom: 24px; }
+.login { max-width: 440px; margin: 10vh auto; }
+form { display: grid; gap: 16px; }
+label { display: grid; gap: 7px; font-size: 14px; font-weight: 600; }
+input, textarea, select { font: inherit; color: inherit; width: 100%; border: 1px solid #aabbc5; border-radius: 5px; padding: 10px; background: white; }
+textarea { min-height: 85px; }
+button { font: inherit; background: #09666a; color: white; border: 1px solid #09666a; border-radius: 5px; padding: 10px 16px; cursor: pointer; width: fit-content; }
+button.secondary { background: white; color: #09666a; }
+button:disabled { opacity: .55; cursor: default; }
+.error { background: #fff0f0; color: #943131; padding: 12px; border-radius: 5px; }
+.success { color: #146044; }
+.grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 12px 8px; text-align: left; border-bottom: 1px solid #e0e7eb; }
+.table-scroll { overflow-x: auto; }
+.row { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.badge { font-size: 12px; background: #e4f1ee; padding: 5px 8px; border-radius: 4px; }
+.pre { white-space: pre-wrap; }
+.project-nav { margin-bottom: 28px; border-bottom: 1px solid #d8e1e6; padding-bottom: 16px; }
+.passage { border-top: 1px solid #d8e1e6; padding: 18px 0; overflow-wrap: anywhere; }
+.checksum { font-size: 12px; overflow-wrap: anywhere; color: #5e717c; }
+.checkbox { display: flex; align-items: center; }
+.checkbox input { width: auto; }
+blockquote { border-left: 3px solid #09666a; margin: 20px 0; padding: 10px 20px; line-height: 1.6; overflow-wrap: anywhere; }
+@media(max-width: 760px) { .grid { grid-template-columns: 1fr; } header { align-items: start; flex-direction: column; } }

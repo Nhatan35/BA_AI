@@ -1,0 +1,25 @@
+# Local secrets and generated runtime files; retain examples if introduced later.
+.env
+.env.*
+!.env.example
+!.env.*.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+var/
+.tools/
+.npm-cache/
+*.egg-info/
+*.log

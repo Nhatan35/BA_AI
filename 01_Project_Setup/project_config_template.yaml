@@ -1,0 +1,16 @@
+project_id: PRJ-001
+project_name: ""
+organization: ""
+module: ""
+owners:
+  business: ""
+  ba: ""
+  medical_sme: ""
+  tech_lead: ""
+status: ACTIVE
+scope:
+  in: []
+  out: []
+source_of_truth_policy: "latest_approved_supersedes_old"
+clinical_review_required: true
+cross_project_data_access: false
